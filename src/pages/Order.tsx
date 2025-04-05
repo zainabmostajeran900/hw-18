@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Controller, useForm } from "react-hook-form";
 import { Input } from "../components/input";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -15,7 +15,6 @@ interface IForm {
 
 export const Order: React.FC = () => {
 
-  // const [disable,setdisable]=useState<boolean>(true);
   const formField = useForm<IForm>({
     mode: "all",
     resolver: zodResolver(OrderSchema),
@@ -30,7 +29,6 @@ export const Order: React.FC = () => {
   });
 
   const submit = (data: IForm) => {
-    // setdisable(false);
     console.log(data);
   };
 
