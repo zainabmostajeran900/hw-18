@@ -26,7 +26,7 @@ export const Navbar: React.FC = () => {
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 576 512"
             className="size-8 fill-white"
             height="1em"
