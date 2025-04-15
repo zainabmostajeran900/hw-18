@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const serverUrl = "https://dummyjson.com";
+// از متغیر محیطی استفاده می‌کنیم
+const serverUrl = import.meta.env.VITE_SERVER_URL;
+
 export const generateClient = () => {
   return axios.create({
     baseURL: serverUrl,
