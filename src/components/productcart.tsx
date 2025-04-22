@@ -18,11 +18,11 @@ export const ProductCart: React.FC<IProduct> = (product) => {
   };
 
   return (
-    <div className="flex flex-col items-start border border-gray-300 rounded-lg p-5 shadow-md">
+    <div className=" flex flex-col items-start border border-gray-300 rounded-lg p-5 shadow-md">
       <img
         src={product.thumbnail}
         alt={product.title}
-        className="w-full h-48 object-cover rounded"
+        className="w-full   object-cover rounded"
       />
       <p className="font-bold text-lg">{product.title}</p>
       <p className="font-bold text-blue-500">${product.price}</p>

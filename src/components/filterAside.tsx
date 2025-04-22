@@ -25,8 +25,8 @@ export const FilterAside: React.FC<FilterAsideProps> = ({
   setFilters,
 }) => {
   return (
-    <aside className="w-80 h-[500px] border px-10 sticky top-24  border-gray-300 rounded-lg bg-slate-900 text-white shadow-md py-4">
-      <p className="text-2xl font-bold mb-8">Filter Products</p>
+    <aside className="w-40 md:w-56 lg:w-80 px-3 py-4 h-[540px] border md:px-10 sticky top-20 sm:top-20  border-gray-300 rounded-lg bg-slate-900 text-white shadow-md md:py-4">
+      <p className="text-2xl font-bold mb-8 text-wrap md:text-nowrap">Filter Products</p>
       <div className="space-y-7">
         <div className="flex items-center gap-2">
           <input

@@ -9,7 +9,7 @@ export const ShoppingCart: React.FC = () => {
   const dispatch = useAppDispatch();
 
   return (
-    <div className="flex flex-col lg:flex-row py-16">
+    <div className="flex flex-col lg:flex-row py-16 mt-20 px-3 gap-4 ">
       <div className="flex-grow">
         {cartItems.length === 0 ? (
           <p>Your cart is empty.</p>

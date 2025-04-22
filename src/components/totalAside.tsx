@@ -9,7 +9,7 @@ export const TotalAside: React.FC = () => {
   }, 0);
 
   return (
-    <aside className="max-w-sm w-full border border-gray-300 rounded-lg bg-slate-900 text-white shadow-md p-4 m-4">
+    <aside className="max-w-sm w-full border border-gray-300 rounded-lg bg-slate-900 text-white shadow-md p-4 ">
       <p className="text-xl font-semibold">Order Summary</p>
       <div className="mt-4">
         <p>Items: {cartItems.length}</p>
